@@ -50,3 +50,17 @@ for name in names:
     print(i)
     print(name)
     i=i+1
+
+print('The code is now completed....')
+
+
+
+#list of numerical values
+roll_digits = [0,1,2,3,4,5,6,7,8,9]
+roll_digits_func= list(range(0,10))
+
+for value in range(0,101):
+    print(value)
+
+for value in roll_digits_func[3:5]:
+    print(value)
