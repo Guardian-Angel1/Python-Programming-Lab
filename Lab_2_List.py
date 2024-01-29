@@ -67,7 +67,7 @@ roll_digits = [0,1,2,3,4,5,6,7,8,9]
 roll_digits_func= list(range(0,10))
 
 print("Print the range of lists")
-for value in range(0,101):
+for value in range(0,10):
     print(value)
 
 print("===========================")
