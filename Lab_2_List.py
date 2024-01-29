@@ -62,5 +62,7 @@ roll_digits_func= list(range(0,10))
 for value in range(0,101):
     print(value)
 
-for value in roll_digits_func[3:5]:
+for value in roll_digits_func[3:6]:
     print(value)
+    
+for value in 
