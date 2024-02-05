@@ -58,7 +58,7 @@ for name in names:
     print(name)
     i=i+1
 
-print('The code is now completed....')
+print('The code is now completed....\n\n')
 
 
 
@@ -87,3 +87,46 @@ print("===========================")
 print("print the slice [6:].")    
 for value in roll_digits_func[6:]:
     print(value)
+    
+    
+ ############ Dated: Feb 05, 2024 ##############
+#  Prakhar Punj
+#  220150011
+#  Data Science and AI 
+# Lists Continued
+
+data= list(range(1,101))
+
+data_int= list(range(1,101,2))
+
+for value in range(1,101):
+    # print(value)
+    print(f"The Value={value}")
+    # print(f"The value="+str(value))
+
+
+
+squares=[]
+for value in range(1,101,3):
+    square = value**2
+    # print(square)
+    print(f"The square of {value} is {square}")
+    squares.append(square)
+   
+print(squares)   
+
+
+squares=[]
+for value in range(1,101,3):
+    print(f"The square of value={value} is {value**2}") 
+    squares.append(value**2)
+    
+#list comprehensions
+squares = [value**2 for value in range(1,101,3)]  
+
+# tuple
+data= (100,150,130)
+print(f"The tuple printing data is: {data[0]}")
+
+
+  
